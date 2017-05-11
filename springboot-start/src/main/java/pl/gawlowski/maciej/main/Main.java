@@ -3,7 +3,7 @@ package pl.gawlowski.maciej.main;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
-@ComponentScan("pl.gawlowski.maciej.controller")
+@ComponentScan({"pl.gawlowski.maciej.controller", "pl.gawlowski.maciej.service"})
 @SpringBootApplication
 public class Main {
 
